@@ -1,0 +1,36 @@
+.card-head{
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.backImage{
+   position: relative;
+   top: -90px;
+}
+
+.test{
+    width: 100%;
+    position: absolute;
+    background-image: linear-gradient(rgba(22, 22, 22, 0.87),rgba(22, 22, 22, 0.609)),url("../../assets/images/model.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    animation: openListAuto 1s cubic-bezier(1, 0.01, 0.2, 1) both;
+  
+}
+
+
+@keyframes openListAuto {
+    0%{
+        height: 50px;
+    }
+    100%{
+        height: 70vh;
+        background-size: 100%;
+    }
+}

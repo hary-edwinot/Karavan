@@ -1,0 +1,14 @@
+<div class="card my-3">
+    <div class="img-top">
+        <img src="./assets/AUTO/{{automobil.thumbnails}}" class="card-img-top" alt="" srcset="">
+    </div>
+    <div class="card-body">
+        <h6 class="card-title">
+            <a [routerLink]="['/model',automobil._id]">
+                {{automobil.name}}
+            </a>
+        </h6>
+        <p class="card-text"><span class="name">Année: </span><strong>{{automobil.date}}</strong></p>
+
+    </div>
+</div>

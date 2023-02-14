@@ -1,0 +1,38 @@
+.card{
+    border: none;
+    border-radius: 0;
+}
+.card-title{
+    text-transform: uppercase;
+    background: rgb(255, 187, 0);
+    margin-left: 0;
+    position: relative;
+    padding: 5px ;
+    left: -20px;
+    width: 160px;
+}
+.card-title a{
+   color: rgb(26, 25, 25);
+   text-decoration: none;
+}
+.card-text{
+    position: relative;
+    padding: 5px ;
+    left: -20px;
+}
+.card-body{
+    background: rgb(26, 25, 25);
+    
+}
+.card-body p{
+    color: white;
+}
+
+.img-top{
+    height: 200px;
+    overflow: hidden;
+    border-radius: 0;
+}
+.card-img-top{
+    border-radius: 0;
+}

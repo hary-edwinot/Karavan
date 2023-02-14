@@ -1,0 +1,26 @@
+<header class="card-head">
+    <div class="container">
+        <div class="info">
+            <div class="col-8 visible-info ">
+                <p>Résultat:</p>
+                <input type="text" placeholder="Recherche">
+            </div>
+        </div>
+
+    </div>
+    <div class="backImage">
+        <div class="test">
+
+        </div>
+    </div>
+</header>
+<div class="body mt-4">
+    <div class="container list-car">
+        <div class="row">
+            <div class="col-4" *ngFor="let auto of autoData">
+                <app-auto-card [automobil]="auto"></app-auto-card>
+            </div>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,200 @@
+
+
+.backImage{
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+
+.info{
+    z-index: 5;
+    position: relative;
+    /* background-color: chartreuse; */
+    top: 50%;
+    left: 46%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    color: whitesmoke;
+
+}
+
+.visible-info{
+     width: 920px;
+     animation: infoVisibility 1s cubic-bezier(1, 0.01, 0.2, 1);
+}
+
+.info h1{
+    text-transform: uppercase;
+}
+
+.btn{
+    background: none;
+    margin: 5px;
+    color: rgb(255, 187, 0);
+    font-size: 18px;
+    border: 1px solid rgb(255, 187, 0);
+    position: relative;
+}
+
+
+.active{
+    background-color: rgb(255, 187, 0);
+    color: rgba(17, 16, 16, 0.726);
+}
+
+.info >div>.survol:hover button:hover{
+    color: rgba(17, 16, 16, 0.726);
+}
+
+
+.info >div>.survol{
+   
+    position: absolute;
+}
+.info >div>.survol>button{
+   overflow: hidden;
+}
+
+.info >div>.survol:hover button:not(:hover){
+    background: none;
+    color: rgb(255, 187, 0);
+}
+
+.info >div>.survol>button:hover span{
+    background: none;
+    background: rgb(255, 187, 0);
+    display: inline-block;
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+span{
+    width: 0;
+    transition: all .2s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+
+.test{
+    width: 100%;
+    position: absolute;
+    background-image: linear-gradient(rgba(22, 22, 22, 0.87),rgba(22, 22, 22, 0.609)), url('./../../assets/images/header.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    animation: open 1s cubic-bezier(1, 0.01, 0.2, 1) both;
+}
+
+@keyframes open {
+    0%{
+        height: 50px;
+        background-size:95%;
+    }
+    100%{
+        height: 100%;
+        background-size: 100%;
+    }
+}
+@keyframes infoVisibility {
+    0%{
+        opacity: 0;
+        left: 10%;
+    }
+    100%{
+        opacity: 1;
+        left: 0%;
+    }
+}
+
+.main{
+    min-height: 100vh;
+    
+}
+.about{
+    height: 100vh;
+}
+.about h2{
+        text-transform: uppercase;
+}
+
+.about p > span{
+    font-weight: bold;
+    color: rgb(255, 123, 0);
+}
+
+.images{
+  overflow: hidden;
+  height: 250px;
+  width: 500px;
+}
+
+.igm{
+    position: relative;
+    transition: all .1s;
+    display: flex;
+    left: 0;
+    top: -50px;
+    transition: all .8s;
+}
+.igm img{
+    width: 100%;
+    height: 100%;
+}
+
+.images:hover .igm{
+    left: -500px;
+}
+
+.destination{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 20px;
+}
+
+.bulle{
+    border-left: 2px solid rgb(46, 43, 43);
+}
+.dispo h2{
+    text-transform: uppercase;
+}
+.info-van{
+    background: rgb(255, 187, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.info-van h3{
+    position: relative;
+}
+
+.info-van h3::after{
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    display: inline-block;
+    height: 2px;
+    width: 150px;
+    background: rgb(42, 42, 42);
+    content: "";
+}
+
+.van-about{
+    width: 600px;
+    position: relative;
+    top: 120px;
+}
+
+
+.service{
+    min-height: 100vh;
+}

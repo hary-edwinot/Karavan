@@ -1,0 +1,32 @@
+<div class="head-model-show">
+    <div class="overlay">
+
+    </div>
+    <img src="assets/AUTO/{{item.thumbnails}}" class="col-12 img-head" alt="" srcset="" title="{{item.name}}">
+</div>
+
+
+<div class="container mt-5 body-model">
+
+    <div class="my-5">
+        <div class="row card-auto" *ngIf='item'>
+            <div class="col-10 gm-image">
+                <span class="title-tag-name">
+                    <strong>Marque</strong>
+                </span>
+                <span class="title-tag">
+                    {{item.name}}
+                </span>
+                <img src="assets/AUTO/{{item.thumbnails}}" class="col-12" alt="" srcset="" title="{{item.name}}" #image>
+
+            </div>
+            <div class=" col-2 cont">
+                <img *ngFor="let img of item.imgs" src="assets/AUTO/{{img}}" class="col-12 my-1 img-visible" alt=""
+                    srcset="" (click)="show(img)">
+            </div>
+        </div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro dolorem id sed animi voluptatibus!
+            Exercitationem eius quas nisi dicta nulla qui dignissimos doloribus, quasi dolorem, totam, pariatur
+            provident minus ipsum.</p>
+    </div>
+</div>

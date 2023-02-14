@@ -1,0 +1,74 @@
+[
+    {
+        "nom":"Produit-1",
+        "url":"produit.jpg",
+        "cat":"Homme",
+        "stock":"illimité",
+        "provenance":"France",
+        "prix": 75,
+        "disponibile":"Analakely"
+    },
+    {
+        "nom":"Produit-2",
+        "url":"produit1.jpg",
+        "cat":"Homme & Femme",
+        "stock":"illimité",
+        "provenance":"USA",
+        "prix": 45,
+        "disponibile":"Mahamasina"
+    },
+    {
+        "nom":"Produit-3",
+        "url":"produit2.jpg",
+        "cat":"Homme",
+        "stock":"illimité",
+        "provenance":"France",
+        "prix": 45,
+        "disponibile":"Itaosy"
+    },
+    {
+        "nom":"Produit-4",
+        "url":"produit3.jpg",
+        "cat":"Homme",
+        "stock":"limité",
+        "provenance":"Allemagne",
+        "prix": 45,
+        "disponibile":"Analakely"
+    },
+    {
+        "nom":"Produit-5",
+        "url":"produit4.jpg",
+        "cat":"Homme",
+        "stock":"limité",
+        "provenance":"Allemagne",
+        "prix": 45,
+        "disponibile":"Analakely"
+    },
+     {
+        "nom":"Produit-6",
+        "url":"produit5.jpg",
+        "cat":"Homme",
+        "stock":"limité",
+        "provenance":"France",
+        "prix": 45,
+        "disponibile":"Mahamasina"
+    },
+      {
+        "nom":"Produit-7",
+        "url":"produit6.jpg",
+        "cat":"Homme",
+        "stock":"limité",
+        "provenance":"France",
+        "prix": 45,
+        "disponibile":"Mahamasina"
+    },
+      {
+        "nom":"Produit-8",
+        "url":"produit7.jpg",
+        "cat":"Homme",
+        "stock":"limité",
+        "provenance":"France",
+        "prix": 45,
+        "disponibile":"Mahamasina"
+    }
+]

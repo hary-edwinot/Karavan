@@ -1,0 +1,87 @@
+.head-model-show{
+    height: 50vh;
+    position: relative;
+    overflow:hidden;
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+
+.img-head{
+    position: relative;
+    top: -105px;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    filter: blur(3px);
+}
+
+.body-model{
+    min-height: 600px;
+    position: relative;
+    
+}
+.card-auto{
+    position: relative;
+}
+.title-tag{
+    position: absolute;
+    z-index: 4;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: rgb(255, 187, 0);
+    left: 30px;
+    top: 25px;
+}
+
+.title-tag-name{
+
+    background-color: rgb(247, 35, 35);
+    top: -1px;
+    left: 20px;
+    z-index: 1;
+    padding: 0px 5px;
+    position: absolute;
+    color: white;
+
+}
+.img-visible{
+ transition: transform .1s;
+}
+.img-visible:hover{
+    cursor: pointer;
+    transform: scale(1.075);
+   
+}
+.overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.603);
+    width: 100vw;
+    height: 100vh;
+    z-index: 4;
+    animation: affichage 1s linear;
+}
+
+@keyframes affichage {
+    0%{
+        background-color: rgba(17, 17, 17, 0.938);
+    }
+    20%{
+        background-color: rgba(17, 17, 17, 0.87);
+    }
+    100%{
+        background-color: rgba(17, 17, 17, 0.774);
+    }
+}
+
+.gm-image{
+    height: 620px;
+    overflow: hidden;
+}
+.gm-image img{
+    width: 100%;
+}

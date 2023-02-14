@@ -1,0 +1,96 @@
+/**
+NAVIGATION BAR
+**/
+
+
+.navigation{
+    height: 65px;
+    line-height: 65px;
+    position: absolute;
+    width: 100%;
+    /* background-color: rgba(17, 16, 16, 0.945); */
+    z-index: 5;
+    animation: afficheNav 1.5s cubic-bezier(1, 0.01, 0.2, 1)forwards;
+    border-bottom: 0.25px solid rgba(245, 245, 245, 0.157);
+}
+
+.navigation >.container>.link>a{
+    margin: 0px 6px;
+    padding: 5px 5px;   
+    /* font-weight: bold; */
+    color: rgb(231, 225, 225);
+}
+
+.navigation >.container> .link>a:hover{
+   text-decoration: none;
+}
+
+.navigation >.container>.link>.active{
+    color: rgb(255, 187, 0);
+    
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+}
+
+
+@keyframes afficheNav {
+    0%{
+        opacity: 0;
+        top: -50px;
+    }
+    100%{
+        top: 0px;
+        opacity: 1;
+    }
+}
+
+
+/***
+FOOTER STYLE
+**/
+
+footer{
+    min-height: 400px;
+    padding: 20px;
+    background: rgb(25, 25, 26);
+    color: whitesmoke;
+}
+
+.sitemap > p{
+    margin: 5px;
+}
+.sitemap > p> a{
+    color: whitesmoke;
+    transition: all .3s;
+    position: relative;
+    left: 0;
+}
+.sitemap > p> a:hover{
+    color: rgb(255, 187, 0);
+    text-decoration: none;
+    left: 10px;
+}
+
+.social-media a{
+    color: whitesmoke;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.social-media a:hover{
+    color: rgb(255, 187, 0);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer hr{
+    background: rgba(245, 245, 245, 0.151);
+}

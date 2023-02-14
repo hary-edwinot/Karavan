@@ -1,0 +1,65 @@
+
+<div class="navigation">
+  <div class="container flex ">
+    <h6 class="logo"> <img src="./../assets/images/logo.svg" alt=""> </h6>
+    <div class="link">
+      <a [routerLink]="['home']" routerLinkActive="active">Acceuil</a>
+      <a [routerLink]="['produits']" routerLinkActive="active">Models</a>
+      <a href="">Réservation</a>
+      <a href="">Nous contactez</a>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-6 mt-5">
+        <img style="width: 100px;position:relative; top:-7px" src="./../../assets/images/logo.svg" alt="" srcset="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque incidunt consequuntur eius a
+          assumenda sint magnam, corporis explicabo aspernatur est amet eos minima exercitationem, esse
+          eligendi dolorum at deserunt necessitatibus!</p>
+      </div>
+      <div class="col-4 mt-5">
+
+        <p><i class="mai-location"></i> Tananarive-Madagascar Ambohipo.</p>
+        <p><i class="mai-mail"></i> Karavan-comity@contact@gmail.co</p>
+        <p><i class="mai-call"></i> +21.77.935.21</p>
+        <div class="mt-2 social-media">
+          <a href="">
+            <i class="mai-logo-facebook-f"></i>
+          </a>
+          <a href="">
+            <i class="mai-logo-twitter "></i>
+          </a>
+          <a href="">
+            <i class="mai-logo-instagram "></i>
+          </a>
+          <a href="">
+            <i class="mai-logo-linkedin "></i>
+          </a>
+
+        </div>
+      </div>
+      <div class="col-2 mt-5 sitemap">
+        <h5>SITE MAP</h5>
+        <p><a href="">Acceuil</a></p>
+        <p><a href="">Destination</a></p>
+        <p><a href="">Réservation</a></p>
+        <p><a href="">Contact</a></p>
+        <p><a href="">Politique de confidentialité</a></p>
+
+
+      </div>
+
+    </div>
+    <hr>
+    </div>
+
+  <div class="container">
+    <p class="text-center mt-5">Copyright 2022 Karavan Co ltd. </p>
+
+  </div>
+</footer>
